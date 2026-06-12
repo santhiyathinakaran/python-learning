@@ -3,12 +3,12 @@ seconds=miniutes*60
 print("seconds",seconds)
 print("---------------------------------")
 meter=int(input("enter the meters:"))
-kg=meter*1000
+kg=meter/1000
 print("kilo meter",kg)
 print("-----------------------------------")
 a=int(input("enter the value of a:"))
 b=int(input("enter the value of b:"))
-print("thrid angle of triangle is:",a+b%2)
+print("thrid angle of triangle is:",a+b-180)
 print("-------------------------------------")
 num=int(input("enter a number:"))
 lost_digit=num%10
