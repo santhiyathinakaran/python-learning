@@ -1,0 +1,10 @@
+a=[1,2,3,4]
+b=[5,6,7,8]
+c=list(zip(a,b))
+print(c)
+d=tuple(zip(a,b))
+print(d)
+e=set(zip(a,b))
+print(e)
+f=dict(zip(a,b))
+print(f)
